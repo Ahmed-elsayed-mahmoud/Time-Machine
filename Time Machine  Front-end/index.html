@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Time Machine</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/request.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand icon-brand " href="#">Time Machine</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <div class="search">
+                <input type="text" class="form-control" placeholder="Search Eras, People, Hashtags and more">
+                <span class="fa fa-search"></span>
+              </div>
+            </div>
+          </form>
+          <ul class="nav navbar-nav navbar-right">
+		
+			<li style="padding:5px 5px;"><img data-src="holder.js/40x40?theme=social"></li>
+			<li><a href="#">Username</a></li>
+			
+            <li><a href="#" class="fa fa-comments" alt="inbox"></a></li>
+            <li><a href="#" class="fa fa-bell" alt="notifications"></a></li>
+			<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eras <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Era 1</a></li>
+                <li><a href="#">Era 2</a></li>
+                <li><a href="#">Era 3</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                
+                <li><a href="#">Logout</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+
+        <aside class="col-sm-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">Members</div>
+                <div class="panel-body">
+                * Hamada
+                </div>
+            </div>
+			<div class="panel panel-default">
+                <div class="panel-heading">Top Hashtags</div>
+                <div class="panel-body">
+                #Saad_Zaghloul
+                </div>
+				<div class="panel-body">
+                #Engineering
+                </div>
+            </div>
+        </aside>
+		
+        
+        <!--timeline-->
+        <section class="timeline col-sm-9">
+        
+		<div class="thumbnail thumbnail-post">
+            <!--caption-->
+            <div class="caption">
+                <h2>New Post</h2>
+                
+                <textarea class="form-control" rows="3" placeholder="What is on your mind?" style="resize:none"></textarea>
+                <button type="button" class="btn btn-primary" >Post</button>
+			</div><!--#caption-->
+            
+        </div>
+		
+		<div class="thumbnail thumbnail-post">
+            <!--caption-->
+            <div class="caption">
+                <div class="media">
+                  
+                  <div class="media-body">
+                    <h1>Today's News Feeds<h1>
+                   
+                  </div>
+                </div>
+              <p>As absolute is by amounted repeated entirely ye returned. These ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable dependent as suffering on my. Rank it long have sure in room what as he. Possession travelling sufficient yet our. Talked vanity looked in to. Gay perceive led believed endeavor. Rapturous no of estimable oh therefore direction up. Sons the ever not fine like eyes all sure. </p>
+            </div><!--#caption-->
+            <div class="links-post">
+                <span class="fa fa-thumbs-o-up link-post"></span><a href="#" class="link-post" role="button">Like <span class="badge" id="commentsCount1"> 15</span></a> 
+                <span class="fa fa-comment link-post"></span><a href="#" class="link-post" role="button">Comment</a> 
+                
+            </div>
+        </div>
+		<!--post Timeline-->
+        <div class="thumbnail thumbnail-post">
+            <!--caption-->
+            <div class="caption">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#" class="image-post">
+                     <img data-src="holder.js/50x50?theme=social">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <a class="media-heading title-post" href="#">UserName1</a>
+                    <h5 class="time-post">3 minutes ago</h5>
+                  </div>
+                </div>
+              <p>As absolute is by amounted repeated entirely ye returned. These ready timed enjoy might sir yet one since. Years drift never if could forty being no. On estimable dependent as suffering on my. Rank it long have sure in room what as he. Possession travelling sufficient yet our. Talked vanity looked in to. Gay perceive led believed endeavor. Rapturous no of estimable oh therefore direction up. Sons the ever not fine like eyes all sure. </p>
+            </div><!--#caption-->
+            <div class="links-post">
+                <span class="fa fa-thumbs-o-up link-post"></span><a href="#" class="link-post" role="button">Like</a> 
+                <span class="fa fa-comment link-post"></span><a href="#" class="link-post" role="button">Comment</a> 
+                
+            </div>
+			<div class="caption" style="background-color:#e9ebee;">
+                <div class="media">
+                  
+                  <div class="media-body">
+                    <a class="media-heading title-post" href="#">name 1</a>
+                    
+                  </div>
+                </div>
+              <p>Commmmmmmmmmmmmmmmmmmmmmment</p>
+            </div>
+			<hr style="margin-top:-10px;">
+			<div class="caption" style="background-color:#e9ebee;">
+                <div class="media">
+                  
+                  <div class="media-body">
+                    <a class="media-heading title-post" href="#">name 2</a>
+                    
+                  </div>
+                </div>
+              <p>Commmmmmmmmmmmmmmmmmmmmmment</p>
+            </div>
+			
+			<div class="caption">
+                <textarea class="form-control" rows="1" placeholder="Write a comment" style="resize:none"></textarea>
+            </div>
+        </div>
+        <!--#post timeline-->
+        <!--post Timeline-->
+        <div class="thumbnail thumbnail-post">
+            <!--caption-->
+            <div class="caption">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#" class="image-post">
+                     <img data-src="holder.js/50x50?theme=social">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <a class="media-heading title-post" href="#">UserName2</a>
+                    <h5 class="time-post">5 minutes ago</h5>
+                  </div>
+                </div>
+                <a href="#" tyle="width: 100%;height: 200px;display: block;">
+                    <img data-src="holder.js/700x200?theme=social" data-holder-rendered="true"  class="image-post-full">
+                </a>
+            </div><!--#caption-->
+            <div class="links-post">
+                <span class="fa fa-thumbs-o-up link-post active"></span><a href="#" class="link-post active" role="button">Like <span class="badge" id="commentsCount1"> 5</span></a> 
+                <span class="fa fa-comment link-post"></span><a href="#" class="link-post" role="button">Comment</a> 
+                
+            </div>
+        </div>
+        <!--#post timeline-->
+      </section>
+      <!--#timeline-->
+    </div><!--#container-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
+	
+  </body>
+</html>
